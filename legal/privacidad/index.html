@@ -16,7 +16,7 @@
 <header>
   <a class="brand" href="/">VeloQuest</a>
   <h1>Política de Privacidad</h1>
-  <p class="meta">Versión 1.2.0 · Agosto 2026 · Chile</p>
+  <p class="meta">Versión 1.3.0 · Agosto 2026 · Chile</p>
 </header>
 
 <main>
@@ -98,15 +98,26 @@
 <h3>3.3.1 Fotos que añades a una actividad</h3>
 <p>
   Puedes añadir hasta <strong>10 fotos</strong> a cada actividad, desde tu galería o con la cámara.
-  Sobre ellas conviene que sepas cuatro cosas concretas:
+  Sobre ellas conviene que sepas cinco cosas concretas:
 </p>
 <ul>
   <li>
-    <strong>Les quitamos la ubicación y el resto de metadatos antes de subirlas.</strong> Una foto
-    tomada con el teléfono suele llevar dentro la coordenada exacta y la hora en que se sacó. La
-    aplicación la reprocesa en tu propio dispositivo y sube una copia sin esos datos. Esto importa
-    especialmente aquí: como se explica en la sección 5, recortamos el principio y el final de tu
-    ruta para que nadie deduzca dónde vives, y una foto con coordenadas desharía ese cuidado.
+    <strong>La copia que se sube no lleva metadatos.</strong> Una foto tomada con el teléfono suele
+    llevar dentro la coordenada exacta y la hora en que se sacó. La aplicación la reprocesa en tu
+    propio dispositivo y sube una copia sin ninguno de esos datos. Esto importa especialmente aquí:
+    como se explica en la sección 5, recortamos el principio y el final de tu ruta para que nadie
+    deduzca dónde vives, y una foto con coordenadas dentro desharía ese cuidado.
+  </li>
+  <li>
+    <strong>Antes de quitarlos leemos una sola cosa: la hora en que se sacó.</strong> Esa hora sí la
+    guardamos junto a la foto, y la usamos para situarla en el punto de tu recorrido donde estabas a
+    esa hora. Conviene que quede claro de dónde sale esa posición: <strong>no sale de la
+    foto</strong>, sale de tu propio registro de GPS, que ya guardábamos para dibujarte la ruta.
+    <strong>Nunca usamos ni guardamos las coordenadas que la cámara escribió dentro de la
+    imagen</strong>: la aplicación se queda solo con la hora y descarta todo lo demás, que es lo que
+    después no llega al servidor. Si la foto no trae hora, o si esa hora no cae dentro de tu salida,
+    se queda sin situar y no pasa nada más. Esa hora y esa posición <strong>no se comparten con
+    nadie</strong>, y se borran junto con la foto.
   </li>
   <li>
     <strong>No se guardan en un sitio público.</strong> Se almacenan en un espacio privado, y cada
@@ -194,7 +205,7 @@
 <table>
   <tr><th>Finalidad</th><th>Datos usados</th></tr>
   <tr><td>Prestarte el servicio: grabar y mostrar tus actividades</td><td>Ubicación, métricas deportivas</td></tr>
-  <tr><td>Guardar y mostrarte las fotos que añades a una actividad</td><td>Fotos de actividad (sin metadatos)</td></tr>
+  <tr><td>Guardar y mostrarte las fotos que añades a una actividad</td><td>Fotos de actividad (el archivo, sin metadatos), su hora de captura y el punto de tu propio recorrido que le corresponde</td></tr>
   <tr><td>Calcular segmentos, XP, medallas, racha y rankings</td><td>Ubicación, métricas, identidad</td></tr>
   <tr><td>Detectar registros anómalos, duplicados o fraudulentos</td><td>Ubicación, métricas, datos técnicos</td></tr>
   <tr><td>Funciones sociales: seguir, perfiles, bloqueos</td><td>Identidad, datos de relación social</td></tr>
@@ -291,7 +302,7 @@
   <tr><td>Actividades y sus rutas GPS</td><td>Mientras existan tu cuenta y la actividad. Si borras una actividad, se borra su ruta.</td></tr>
   <tr><td>Actividades que descartas manualmente</td><td>Se conservan 12 meses desde el descarte (prevención de abuso) y luego se eliminan de forma automática. Se borran antes si eliminas la cuenta.</td></tr>
   <tr><td>Actividades marcadas como anómalas (validación)</td><td>Mientras exista tu cuenta, para prevención de abuso. Se borran al eliminar la cuenta.</td></tr>
-  <tr><td>Fotos que añades a una actividad</td><td>Hasta que las borres tú, o hasta que elimines tu cuenta. Al borrar una foto se elimina también su archivo.</td></tr>
+  <tr><td>Fotos que añades a una actividad, con su hora de captura y su posición en tu recorrido</td><td>Hasta que las borres tú, o hasta que elimines tu cuenta. Al borrar una foto se elimina también su archivo, su hora y su posición.</td></tr>
   <tr><td>Datos de relación social (seguidores, bloqueos)</td><td>Mientras exista tu cuenta.</td></tr>
   <tr><td>Aceptaciones legales</td><td>Mientras exista tu cuenta (prueba del consentimiento).</td></tr>
 </table>
@@ -360,7 +371,7 @@
     <a href="/legal/normas-comunidad">Normas de comunidad</a> ·
     <a href="/eliminar-cuenta">Eliminar cuenta</a>
   </p>
-  <p>Versión 1.2.0 — Agosto 2026</p>
+  <p>Versión 1.3.0 — Agosto 2026</p>
 </footer>
 
 </body>
